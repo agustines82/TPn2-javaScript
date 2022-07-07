@@ -1,8 +1,8 @@
 //Realiza un script que cuente el número de vocales que tiene un texto.
 let cadena = prompt("ingrese su frase");
 cadena = cadena.toLowerCase();
-vocales = "aeiouáéíóúöü";
-contador = 0;
+let vocales = "aeiouáéíóúöü";
+let contador = 0;
 
 for (i = 0; i <= cadena.length; i++) {
     if (vocales.includes(cadena.charAt(i))) {
