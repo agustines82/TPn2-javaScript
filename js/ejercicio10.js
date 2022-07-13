@@ -4,6 +4,7 @@ let col = parseInt(prompt("Ingrese el numero de columnas"));
 let contador = fila * col;
 
 document.write("<table>");
+document.write("<tbody>");
 for (i = fila; i > 0; i--) {
     document.write(`<tr>`);
     for (x = col; x > 0; x--) {
@@ -12,4 +13,5 @@ for (i = fila; i > 0; i--) {
     }
     document.write(`</tr>`);
 }
+document.write("</tbody>");
 document.write("</table>");
